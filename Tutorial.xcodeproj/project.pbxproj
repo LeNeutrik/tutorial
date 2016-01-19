@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4C8ED2471C4E5F1100AF788F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2461C4E5F1100AF788F /* AppDelegate.swift */; };
-		4C8ED2491C4E5F1100AF788F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2481C4E5F1100AF788F /* ViewController.swift */; };
 		4C8ED24C1C4E5F1100AF788F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8ED24A1C4E5F1100AF788F /* Main.storyboard */; };
 		4C8ED24F1C4E5F1100AF788F /* Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED24D1C4E5F1100AF788F /* Tutorial.xcdatamodeld */; };
 		4C8ED2511C4E5F1100AF788F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8ED2501C4E5F1100AF788F /* Assets.xcassets */; };
@@ -27,6 +26,20 @@
 		4C8ED2A31C4E6A0B00AF788F /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A21C4E6A0B00AF788F /* CoreData.swift */; };
 		4C8ED2A41C4E6A0B00AF788F /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A21C4E6A0B00AF788F /* CoreData.swift */; };
 		4C8ED2A51C4E721A00AF788F /* Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED24D1C4E5F1100AF788F /* Tutorial.xcdatamodeld */; };
+		4C8ED2AC1C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A61C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift */; };
+		4C8ED2AD1C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A61C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift */; };
+		4C8ED2AE1C4E790400AF788F /* CommandTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A71C4E790400AF788F /* CommandTunnel.swift */; };
+		4C8ED2AF1C4E790400AF788F /* CommandTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A71C4E790400AF788F /* CommandTunnel.swift */; };
+		4C8ED2B01C4E790400AF788F /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A81C4E790400AF788F /* Task+CoreDataProperties.swift */; };
+		4C8ED2B11C4E790400AF788F /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A81C4E790400AF788F /* Task+CoreDataProperties.swift */; };
+		4C8ED2B21C4E790400AF788F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A91C4E790400AF788F /* Task.swift */; };
+		4C8ED2B31C4E790400AF788F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A91C4E790400AF788F /* Task.swift */; };
+		4C8ED2B41C4E790400AF788F /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2AA1C4E790400AF788F /* Job+CoreDataProperties.swift */; };
+		4C8ED2B51C4E790400AF788F /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2AA1C4E790400AF788F /* Job+CoreDataProperties.swift */; };
+		4C8ED2B61C4E790400AF788F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2AB1C4E790400AF788F /* Job.swift */; };
+		4C8ED2B71C4E790400AF788F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2AB1C4E790400AF788F /* Job.swift */; };
+		4C8ED2B91C4E7DB800AF788F /* JobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2B81C4E7DB800AF788F /* JobTableViewController.swift */; };
+		4C8ED2BB1C4E7E4C00AF788F /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2BA1C4E7E4C00AF788F /* JobTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +101,6 @@
 /* Begin PBXFileReference section */
 		4C8ED2431C4E5F1100AF788F /* Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8ED2461C4E5F1100AF788F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C8ED2481C4E5F1100AF788F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C8ED24B1C4E5F1100AF788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C8ED24E1C4E5F1100AF788F /* Tutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tutorial.xcdatamodel; sourceTree = "<group>"; };
 		4C8ED2501C4E5F1100AF788F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,6 +125,14 @@
 		4C8ED2941C4E605A00AF788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8ED2A01C4E613600AF788F /* Tutorial WatchKit App Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Tutorial WatchKit App Extension.entitlements"; sourceTree = "<group>"; };
 		4C8ED2A21C4E6A0B00AF788F /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		4C8ED2A61C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CommandTunnel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C8ED2A71C4E790400AF788F /* CommandTunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandTunnel.swift; sourceTree = "<group>"; };
+		4C8ED2A81C4E790400AF788F /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C8ED2A91C4E790400AF788F /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		4C8ED2AA1C4E790400AF788F /* Job+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C8ED2AB1C4E790400AF788F /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		4C8ED2B81C4E7DB800AF788F /* JobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTableViewController.swift; sourceTree = "<group>"; };
+		4C8ED2BA1C4E7E4C00AF788F /* JobTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +170,6 @@
 		4C8ED23A1C4E5F1100AF788F = {
 			isa = PBXGroup;
 			children = (
-				4C8ED2781C4E5FC100AF788F /* Common */,
 				4C8ED2451C4E5F1100AF788F /* Tutorial */,
 				4C8ED25D1C4E5F1100AF788F /* TutorialTests */,
 				4C8ED2681C4E5F1100AF788F /* TutorialUITests */,
@@ -175,10 +194,12 @@
 		4C8ED2451C4E5F1100AF788F /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				4C8ED2781C4E5FC100AF788F /* Common */,
 				4C8ED2771C4E5F8900AF788F /* Tutorial.entitlements */,
 				4C8ED2461C4E5F1100AF788F /* AppDelegate.swift */,
-				4C8ED2481C4E5F1100AF788F /* ViewController.swift */,
 				4C8ED24A1C4E5F1100AF788F /* Main.storyboard */,
+				4C8ED2B81C4E7DB800AF788F /* JobTableViewController.swift */,
+				4C8ED2BA1C4E7E4C00AF788F /* JobTableViewCell.swift */,
 				4C8ED2501C4E5F1100AF788F /* Assets.xcassets */,
 				4C8ED2521C4E5F1100AF788F /* LaunchScreen.storyboard */,
 				4C8ED2551C4E5F1100AF788F /* Info.plist */,
@@ -207,11 +228,18 @@
 		4C8ED2781C4E5FC100AF788F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				4C8ED2A61C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift */,
+				4C8ED2A71C4E790400AF788F /* CommandTunnel.swift */,
+				4C8ED2A81C4E790400AF788F /* Task+CoreDataProperties.swift */,
+				4C8ED2A91C4E790400AF788F /* Task.swift */,
+				4C8ED2AA1C4E790400AF788F /* Job+CoreDataProperties.swift */,
+				4C8ED2AB1C4E790400AF788F /* Job.swift */,
 				4C8ED2791C4E5FD800AF788F /* Common.swift */,
 				4C8ED2A21C4E6A0B00AF788F /* CoreData.swift */,
 				4C8ED24D1C4E5F1100AF788F /* Tutorial.xcdatamodeld */,
 			);
 			name = Common;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4C8ED27E1C4E605A00AF788F /* Tutorial WatchKit App */ = {
@@ -444,9 +472,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8ED27A1C4E5FD800AF788F /* Common.swift in Sources */,
-				4C8ED2491C4E5F1100AF788F /* ViewController.swift in Sources */,
+				4C8ED2B41C4E790400AF788F /* Job+CoreDataProperties.swift in Sources */,
+				4C8ED2AC1C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift in Sources */,
+				4C8ED2BB1C4E7E4C00AF788F /* JobTableViewCell.swift in Sources */,
 				4C8ED2471C4E5F1100AF788F /* AppDelegate.swift in Sources */,
 				4C8ED24F1C4E5F1100AF788F /* Tutorial.xcdatamodeld in Sources */,
+				4C8ED2AE1C4E790400AF788F /* CommandTunnel.swift in Sources */,
+				4C8ED2B61C4E790400AF788F /* Job.swift in Sources */,
+				4C8ED2B01C4E790400AF788F /* Task+CoreDataProperties.swift in Sources */,
+				4C8ED2B21C4E790400AF788F /* Task.swift in Sources */,
+				4C8ED2B91C4E7DB800AF788F /* JobTableViewController.swift in Sources */,
 				4C8ED2A31C4E6A0B00AF788F /* CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,9 +507,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8ED2A41C4E6A0B00AF788F /* CoreData.swift in Sources */,
+				4C8ED2B51C4E790400AF788F /* Job+CoreDataProperties.swift in Sources */,
+				4C8ED2AD1C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift in Sources */,
 				4C8ED2A51C4E721A00AF788F /* Tutorial.xcdatamodeld in Sources */,
 				4C8ED2911C4E605A00AF788F /* ExtensionDelegate.swift in Sources */,
 				4C8ED2A11C4E683B00AF788F /* Common.swift in Sources */,
+				4C8ED2AF1C4E790400AF788F /* CommandTunnel.swift in Sources */,
+				4C8ED2B71C4E790400AF788F /* Job.swift in Sources */,
+				4C8ED2B11C4E790400AF788F /* Task+CoreDataProperties.swift in Sources */,
+				4C8ED2B31C4E790400AF788F /* Task.swift in Sources */,
 				4C8ED28F1C4E605A00AF788F /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
