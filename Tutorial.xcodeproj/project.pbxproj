@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C49776E1C52680700D278BF /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C49776D1C52680700D278BF /* TaskTableViewController.swift */; };
+		4C4977701C52682D00D278BF /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C49776F1C52682D00D278BF /* TaskTableViewCell.swift */; };
 		4C8ED2471C4E5F1100AF788F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2461C4E5F1100AF788F /* AppDelegate.swift */; };
-		4C8ED24C1C4E5F1100AF788F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8ED24A1C4E5F1100AF788F /* Main.storyboard */; };
 		4C8ED24F1C4E5F1100AF788F /* Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED24D1C4E5F1100AF788F /* Tutorial.xcdatamodeld */; };
 		4C8ED2511C4E5F1100AF788F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8ED2501C4E5F1100AF788F /* Assets.xcassets */; };
-		4C8ED2541C4E5F1100AF788F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8ED2521C4E5F1100AF788F /* LaunchScreen.storyboard */; };
 		4C8ED25F1C4E5F1100AF788F /* TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED25E1C4E5F1100AF788F /* TutorialTests.swift */; };
 		4C8ED26A1C4E5F1100AF788F /* TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2691C4E5F1100AF788F /* TutorialUITests.swift */; };
-		4C8ED27A1C4E5FD800AF788F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2791C4E5FD800AF788F /* Common.swift */; };
 		4C8ED2811C4E605A00AF788F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8ED27F1C4E605A00AF788F /* Interface.storyboard */; };
 		4C8ED2831C4E605A00AF788F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8ED2821C4E605A00AF788F /* Assets.xcassets */; };
 		4C8ED28A1C4E605A00AF788F /* Tutorial WatchKit App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4C8ED2891C4E605A00AF788F /* Tutorial WatchKit App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -22,24 +21,46 @@
 		4C8ED2911C4E605A00AF788F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2901C4E605A00AF788F /* ExtensionDelegate.swift */; };
 		4C8ED2931C4E605A00AF788F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8ED2921C4E605A00AF788F /* Assets.xcassets */; };
 		4C8ED2971C4E605A00AF788F /* Tutorial WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4C8ED27D1C4E605A00AF788F /* Tutorial WatchKit App.app */; };
-		4C8ED2A11C4E683B00AF788F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2791C4E5FD800AF788F /* Common.swift */; };
-		4C8ED2A31C4E6A0B00AF788F /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A21C4E6A0B00AF788F /* CoreData.swift */; };
-		4C8ED2A41C4E6A0B00AF788F /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A21C4E6A0B00AF788F /* CoreData.swift */; };
 		4C8ED2A51C4E721A00AF788F /* Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED24D1C4E5F1100AF788F /* Tutorial.xcdatamodeld */; };
-		4C8ED2AC1C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A61C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift */; };
-		4C8ED2AD1C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A61C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift */; };
-		4C8ED2AE1C4E790400AF788F /* CommandTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A71C4E790400AF788F /* CommandTunnel.swift */; };
-		4C8ED2AF1C4E790400AF788F /* CommandTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A71C4E790400AF788F /* CommandTunnel.swift */; };
-		4C8ED2B01C4E790400AF788F /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A81C4E790400AF788F /* Task+CoreDataProperties.swift */; };
-		4C8ED2B11C4E790400AF788F /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A81C4E790400AF788F /* Task+CoreDataProperties.swift */; };
-		4C8ED2B21C4E790400AF788F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A91C4E790400AF788F /* Task.swift */; };
-		4C8ED2B31C4E790400AF788F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2A91C4E790400AF788F /* Task.swift */; };
-		4C8ED2B41C4E790400AF788F /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2AA1C4E790400AF788F /* Job+CoreDataProperties.swift */; };
-		4C8ED2B51C4E790400AF788F /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2AA1C4E790400AF788F /* Job+CoreDataProperties.swift */; };
-		4C8ED2B61C4E790400AF788F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2AB1C4E790400AF788F /* Job.swift */; };
-		4C8ED2B71C4E790400AF788F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2AB1C4E790400AF788F /* Job.swift */; };
 		4C8ED2B91C4E7DB800AF788F /* JobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2B81C4E7DB800AF788F /* JobTableViewController.swift */; };
 		4C8ED2BB1C4E7E4C00AF788F /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED2BA1C4E7E4C00AF788F /* JobTableViewCell.swift */; };
+		4C8ED2C01C4E8B7D00AF788F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8ED2BE1C4E8B7D00AF788F /* Main.storyboard */; };
+		4CA0DA711C4FD0C8001A4E23 /* CommandTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA691C4FD0C8001A4E23 /* CommandTunnel.swift */; };
+		4CA0DA721C4FD0C8001A4E23 /* CommandTunnel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6A1C4FD0C8001A4E23 /* CommandTunnel+CoreDataProperties.swift */; };
+		4CA0DA741C4FD0C8001A4E23 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6C1C4FD0C8001A4E23 /* CoreData.swift */; };
+		4CA0DA751C4FD0C8001A4E23 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6D1C4FD0C8001A4E23 /* Job.swift */; };
+		4CA0DA761C4FD0C8001A4E23 /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6E1C4FD0C8001A4E23 /* Job+CoreDataProperties.swift */; };
+		4CA0DA771C4FD0C8001A4E23 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6F1C4FD0C8001A4E23 /* Task.swift */; };
+		4CA0DA781C4FD0C8001A4E23 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA701C4FD0C8001A4E23 /* Task+CoreDataProperties.swift */; };
+		4CA0DA791C4FD140001A4E23 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6B1C4FD0C8001A4E23 /* Common.swift */; };
+		4CA0DA7A1C4FD147001A4E23 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6B1C4FD0C8001A4E23 /* Common.swift */; };
+		4CA0DA7D1C4FD161001A4E23 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6B1C4FD0C8001A4E23 /* Common.swift */; };
+		4CA0DA7E1C4FD162001A4E23 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6B1C4FD0C8001A4E23 /* Common.swift */; };
+		4CA0DA7F1C4FD169001A4E23 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6C1C4FD0C8001A4E23 /* CoreData.swift */; };
+		4CA0DA801C4FD169001A4E23 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6C1C4FD0C8001A4E23 /* CoreData.swift */; };
+		4CA0DA811C4FD16B001A4E23 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6C1C4FD0C8001A4E23 /* CoreData.swift */; };
+		4CA0DA821C4FD173001A4E23 /* CommandTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA691C4FD0C8001A4E23 /* CommandTunnel.swift */; };
+		4CA0DA831C4FD173001A4E23 /* CommandTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA691C4FD0C8001A4E23 /* CommandTunnel.swift */; };
+		4CA0DA841C4FD174001A4E23 /* CommandTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA691C4FD0C8001A4E23 /* CommandTunnel.swift */; };
+		4CA0DA851C4FD177001A4E23 /* CommandTunnel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6A1C4FD0C8001A4E23 /* CommandTunnel+CoreDataProperties.swift */; };
+		4CA0DA861C4FD178001A4E23 /* CommandTunnel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6A1C4FD0C8001A4E23 /* CommandTunnel+CoreDataProperties.swift */; };
+		4CA0DA871C4FD179001A4E23 /* CommandTunnel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6A1C4FD0C8001A4E23 /* CommandTunnel+CoreDataProperties.swift */; };
+		4CA0DA881C4FD180001A4E23 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6D1C4FD0C8001A4E23 /* Job.swift */; };
+		4CA0DA891C4FD180001A4E23 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6D1C4FD0C8001A4E23 /* Job.swift */; };
+		4CA0DA8A1C4FD181001A4E23 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6D1C4FD0C8001A4E23 /* Job.swift */; };
+		4CA0DA8B1C4FD184001A4E23 /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6E1C4FD0C8001A4E23 /* Job+CoreDataProperties.swift */; };
+		4CA0DA8C1C4FD185001A4E23 /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6E1C4FD0C8001A4E23 /* Job+CoreDataProperties.swift */; };
+		4CA0DA8D1C4FD185001A4E23 /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6E1C4FD0C8001A4E23 /* Job+CoreDataProperties.swift */; };
+		4CA0DA8E1C4FD188001A4E23 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6F1C4FD0C8001A4E23 /* Task.swift */; };
+		4CA0DA8F1C4FD189001A4E23 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6F1C4FD0C8001A4E23 /* Task.swift */; };
+		4CA0DA901C4FD18A001A4E23 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA6F1C4FD0C8001A4E23 /* Task.swift */; };
+		4CA0DA911C4FD18D001A4E23 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA701C4FD0C8001A4E23 /* Task+CoreDataProperties.swift */; };
+		4CA0DA921C4FD18D001A4E23 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA701C4FD0C8001A4E23 /* Task+CoreDataProperties.swift */; };
+		4CA0DA931C4FD18E001A4E23 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0DA701C4FD0C8001A4E23 /* Task+CoreDataProperties.swift */; };
+		4CA0DA941C4FD192001A4E23 /* Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED24D1C4E5F1100AF788F /* Tutorial.xcdatamodeld */; };
+		4CA0DA951C4FD192001A4E23 /* Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C8ED24D1C4E5F1100AF788F /* Tutorial.xcdatamodeld */; };
+		4CC7B33A1C51326A004215B7 /* JSMHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7B3391C51326A004215B7 /* JSMHelper.swift */; };
+		4CC7B33E1C5141FF004215B7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7B33D1C5141FF004215B7 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,12 +120,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C49776D1C52680700D278BF /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		4C49776F1C52682D00D278BF /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 		4C8ED2431C4E5F1100AF788F /* Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8ED2461C4E5F1100AF788F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C8ED24B1C4E5F1100AF788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C8ED24E1C4E5F1100AF788F /* Tutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tutorial.xcdatamodel; sourceTree = "<group>"; };
 		4C8ED2501C4E5F1100AF788F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C8ED2531C4E5F1100AF788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8ED2551C4E5F1100AF788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8ED25A1C4E5F1100AF788F /* TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8ED25E1C4E5F1100AF788F /* TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTests.swift; sourceTree = "<group>"; };
@@ -113,7 +134,6 @@
 		4C8ED2691C4E5F1100AF788F /* TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialUITests.swift; sourceTree = "<group>"; };
 		4C8ED26B1C4E5F1100AF788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8ED2771C4E5F8900AF788F /* Tutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Tutorial.entitlements; sourceTree = "<group>"; };
-		4C8ED2791C4E5FD800AF788F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		4C8ED27D1C4E605A00AF788F /* Tutorial WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8ED2801C4E605A00AF788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		4C8ED2821C4E605A00AF788F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -124,15 +144,19 @@
 		4C8ED2921C4E605A00AF788F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C8ED2941C4E605A00AF788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8ED2A01C4E613600AF788F /* Tutorial WatchKit App Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Tutorial WatchKit App Extension.entitlements"; sourceTree = "<group>"; };
-		4C8ED2A21C4E6A0B00AF788F /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
-		4C8ED2A61C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CommandTunnel+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		4C8ED2A71C4E790400AF788F /* CommandTunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandTunnel.swift; sourceTree = "<group>"; };
-		4C8ED2A81C4E790400AF788F /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		4C8ED2A91C4E790400AF788F /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		4C8ED2AA1C4E790400AF788F /* Job+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		4C8ED2AB1C4E790400AF788F /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		4C8ED2B81C4E7DB800AF788F /* JobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTableViewController.swift; sourceTree = "<group>"; };
 		4C8ED2BA1C4E7E4C00AF788F /* JobTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		4C8ED2BF1C4E8B7D00AF788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CA0DA691C4FD0C8001A4E23 /* CommandTunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandTunnel.swift; path = Tutorial/CommandTunnel.swift; sourceTree = "<group>"; };
+		4CA0DA6A1C4FD0C8001A4E23 /* CommandTunnel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CommandTunnel+CoreDataProperties.swift"; path = "Tutorial/CommandTunnel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4CA0DA6B1C4FD0C8001A4E23 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Tutorial/Common.swift; sourceTree = "<group>"; };
+		4CA0DA6C1C4FD0C8001A4E23 /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreData.swift; path = Tutorial/CoreData.swift; sourceTree = "<group>"; };
+		4CA0DA6D1C4FD0C8001A4E23 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Job.swift; path = Tutorial/Job.swift; sourceTree = "<group>"; };
+		4CA0DA6E1C4FD0C8001A4E23 /* Job+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Job+CoreDataProperties.swift"; path = "Tutorial/Job+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4CA0DA6F1C4FD0C8001A4E23 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Tutorial/Task.swift; sourceTree = "<group>"; };
+		4CA0DA701C4FD0C8001A4E23 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataProperties.swift"; path = "Tutorial/Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4CC7B3391C51326A004215B7 /* JSMHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSMHelper.swift; sourceTree = "<group>"; };
+		4CC7B33D1C5141FF004215B7 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +191,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C8DC3121C511E7300DA0B55 /* Helper + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4CC7B3391C51326A004215B7 /* JSMHelper.swift */,
+				4CC7B33D1C5141FF004215B7 /* UIView+Extension.swift */,
+			);
+			name = "Helper + Extension";
+			sourceTree = "<group>";
+		};
 		4C8ED23A1C4E5F1100AF788F = {
 			isa = PBXGroup;
 			children = (
@@ -194,14 +227,16 @@
 		4C8ED2451C4E5F1100AF788F /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				4C8DC3121C511E7300DA0B55 /* Helper + Extension */,
 				4C8ED2781C4E5FC100AF788F /* Common */,
 				4C8ED2771C4E5F8900AF788F /* Tutorial.entitlements */,
+				4C8ED2BE1C4E8B7D00AF788F /* Main.storyboard */,
 				4C8ED2461C4E5F1100AF788F /* AppDelegate.swift */,
-				4C8ED24A1C4E5F1100AF788F /* Main.storyboard */,
 				4C8ED2B81C4E7DB800AF788F /* JobTableViewController.swift */,
 				4C8ED2BA1C4E7E4C00AF788F /* JobTableViewCell.swift */,
+				4C49776D1C52680700D278BF /* TaskTableViewController.swift */,
+				4C49776F1C52682D00D278BF /* TaskTableViewCell.swift */,
 				4C8ED2501C4E5F1100AF788F /* Assets.xcassets */,
-				4C8ED2521C4E5F1100AF788F /* LaunchScreen.storyboard */,
 				4C8ED2551C4E5F1100AF788F /* Info.plist */,
 			);
 			path = Tutorial;
@@ -228,14 +263,14 @@
 		4C8ED2781C4E5FC100AF788F /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				4C8ED2A61C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift */,
-				4C8ED2A71C4E790400AF788F /* CommandTunnel.swift */,
-				4C8ED2A81C4E790400AF788F /* Task+CoreDataProperties.swift */,
-				4C8ED2A91C4E790400AF788F /* Task.swift */,
-				4C8ED2AA1C4E790400AF788F /* Job+CoreDataProperties.swift */,
-				4C8ED2AB1C4E790400AF788F /* Job.swift */,
-				4C8ED2791C4E5FD800AF788F /* Common.swift */,
-				4C8ED2A21C4E6A0B00AF788F /* CoreData.swift */,
+				4CA0DA691C4FD0C8001A4E23 /* CommandTunnel.swift */,
+				4CA0DA6A1C4FD0C8001A4E23 /* CommandTunnel+CoreDataProperties.swift */,
+				4CA0DA6B1C4FD0C8001A4E23 /* Common.swift */,
+				4CA0DA6C1C4FD0C8001A4E23 /* CoreData.swift */,
+				4CA0DA6D1C4FD0C8001A4E23 /* Job.swift */,
+				4CA0DA6E1C4FD0C8001A4E23 /* Job+CoreDataProperties.swift */,
+				4CA0DA6F1C4FD0C8001A4E23 /* Task.swift */,
+				4CA0DA701C4FD0C8001A4E23 /* Task+CoreDataProperties.swift */,
 				4C8ED24D1C4E5F1100AF788F /* Tutorial.xcdatamodeld */,
 			);
 			name = Common;
@@ -427,9 +462,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8ED2541C4E5F1100AF788F /* LaunchScreen.storyboard in Resources */,
+				4C8ED2C01C4E8B7D00AF788F /* Main.storyboard in Resources */,
 				4C8ED2511C4E5F1100AF788F /* Assets.xcassets in Resources */,
-				4C8ED24C1C4E5F1100AF788F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,18 +505,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8ED27A1C4E5FD800AF788F /* Common.swift in Sources */,
-				4C8ED2B41C4E790400AF788F /* Job+CoreDataProperties.swift in Sources */,
-				4C8ED2AC1C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift in Sources */,
+				4C49776E1C52680700D278BF /* TaskTableViewController.swift in Sources */,
+				4CA0DA781C4FD0C8001A4E23 /* Task+CoreDataProperties.swift in Sources */,
+				4CA0DA721C4FD0C8001A4E23 /* CommandTunnel+CoreDataProperties.swift in Sources */,
+				4CA0DA741C4FD0C8001A4E23 /* CoreData.swift in Sources */,
+				4CA0DA711C4FD0C8001A4E23 /* CommandTunnel.swift in Sources */,
+				4CA0DA7A1C4FD147001A4E23 /* Common.swift in Sources */,
 				4C8ED2BB1C4E7E4C00AF788F /* JobTableViewCell.swift in Sources */,
 				4C8ED2471C4E5F1100AF788F /* AppDelegate.swift in Sources */,
+				4C4977701C52682D00D278BF /* TaskTableViewCell.swift in Sources */,
 				4C8ED24F1C4E5F1100AF788F /* Tutorial.xcdatamodeld in Sources */,
-				4C8ED2AE1C4E790400AF788F /* CommandTunnel.swift in Sources */,
-				4C8ED2B61C4E790400AF788F /* Job.swift in Sources */,
-				4C8ED2B01C4E790400AF788F /* Task+CoreDataProperties.swift in Sources */,
-				4C8ED2B21C4E790400AF788F /* Task.swift in Sources */,
+				4CC7B33E1C5141FF004215B7 /* UIView+Extension.swift in Sources */,
+				4CA0DA761C4FD0C8001A4E23 /* Job+CoreDataProperties.swift in Sources */,
+				4CC7B33A1C51326A004215B7 /* JSMHelper.swift in Sources */,
 				4C8ED2B91C4E7DB800AF788F /* JobTableViewController.swift in Sources */,
-				4C8ED2A31C4E6A0B00AF788F /* CoreData.swift in Sources */,
+				4CA0DA771C4FD0C8001A4E23 /* Task.swift in Sources */,
+				4CA0DA751C4FD0C8001A4E23 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +528,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA0DA7D1C4FD161001A4E23 /* Common.swift in Sources */,
+				4CA0DA8E1C4FD188001A4E23 /* Task.swift in Sources */,
 				4C8ED25F1C4E5F1100AF788F /* TutorialTests.swift in Sources */,
+				4CA0DA911C4FD18D001A4E23 /* Task+CoreDataProperties.swift in Sources */,
+				4CA0DA941C4FD192001A4E23 /* Tutorial.xcdatamodeld in Sources */,
+				4CA0DA821C4FD173001A4E23 /* CommandTunnel.swift in Sources */,
+				4CA0DA8B1C4FD184001A4E23 /* Job+CoreDataProperties.swift in Sources */,
+				4CA0DA7F1C4FD169001A4E23 /* CoreData.swift in Sources */,
+				4CA0DA851C4FD177001A4E23 /* CommandTunnel+CoreDataProperties.swift in Sources */,
+				4CA0DA881C4FD180001A4E23 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +545,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA0DA7E1C4FD162001A4E23 /* Common.swift in Sources */,
+				4CA0DA8F1C4FD189001A4E23 /* Task.swift in Sources */,
 				4C8ED26A1C4E5F1100AF788F /* TutorialUITests.swift in Sources */,
+				4CA0DA921C4FD18D001A4E23 /* Task+CoreDataProperties.swift in Sources */,
+				4CA0DA951C4FD192001A4E23 /* Tutorial.xcdatamodeld in Sources */,
+				4CA0DA831C4FD173001A4E23 /* CommandTunnel.swift in Sources */,
+				4CA0DA8C1C4FD185001A4E23 /* Job+CoreDataProperties.swift in Sources */,
+				4CA0DA811C4FD16B001A4E23 /* CoreData.swift in Sources */,
+				4CA0DA861C4FD178001A4E23 /* CommandTunnel+CoreDataProperties.swift in Sources */,
+				4CA0DA891C4FD180001A4E23 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,17 +562,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8ED2A41C4E6A0B00AF788F /* CoreData.swift in Sources */,
-				4C8ED2B51C4E790400AF788F /* Job+CoreDataProperties.swift in Sources */,
-				4C8ED2AD1C4E790400AF788F /* CommandTunnel+CoreDataProperties.swift in Sources */,
+				4CA0DA791C4FD140001A4E23 /* Common.swift in Sources */,
 				4C8ED2A51C4E721A00AF788F /* Tutorial.xcdatamodeld in Sources */,
+				4CA0DA901C4FD18A001A4E23 /* Task.swift in Sources */,
 				4C8ED2911C4E605A00AF788F /* ExtensionDelegate.swift in Sources */,
-				4C8ED2A11C4E683B00AF788F /* Common.swift in Sources */,
-				4C8ED2AF1C4E790400AF788F /* CommandTunnel.swift in Sources */,
-				4C8ED2B71C4E790400AF788F /* Job.swift in Sources */,
-				4C8ED2B11C4E790400AF788F /* Task+CoreDataProperties.swift in Sources */,
-				4C8ED2B31C4E790400AF788F /* Task.swift in Sources */,
+				4CA0DA931C4FD18E001A4E23 /* Task+CoreDataProperties.swift in Sources */,
+				4CA0DA841C4FD174001A4E23 /* CommandTunnel.swift in Sources */,
 				4C8ED28F1C4E605A00AF788F /* InterfaceController.swift in Sources */,
+				4CA0DA8D1C4FD185001A4E23 /* Job+CoreDataProperties.swift in Sources */,
+				4CA0DA801C4FD169001A4E23 /* CoreData.swift in Sources */,
+				4CA0DA871C4FD179001A4E23 /* CommandTunnel+CoreDataProperties.swift in Sources */,
+				4CA0DA8A1C4FD181001A4E23 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,28 +602,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4C8ED24A1C4E5F1100AF788F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C8ED24B1C4E5F1100AF788F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4C8ED2521C4E5F1100AF788F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C8ED2531C4E5F1100AF788F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		4C8ED27F1C4E605A00AF788F /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4C8ED2801C4E605A00AF788F /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		4C8ED2BE1C4E8B7D00AF788F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C8ED2BF1C4E8B7D00AF788F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -662,10 +710,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.Tutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -677,10 +729,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.Tutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -689,6 +745,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TutorialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.TutorialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -701,6 +758,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TutorialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.TutorialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -712,6 +770,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = TutorialUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.TutorialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -724,6 +783,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = TutorialUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.TutorialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -739,6 +799,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tutorial WatchKit App Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.Tutorial.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -746,7 +807,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -757,6 +818,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tutorial WatchKit App Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.Tutorial.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -764,7 +826,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -777,12 +839,13 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Tutorial_WatchKit_App_Extension;
 				INFOPLIST_FILE = "Tutorial WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.Tutorial.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -795,12 +858,13 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Tutorial_WatchKit_App_Extension;
 				INFOPLIST_FILE = "Tutorial WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = de.dazjuk.Tutorial.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -823,6 +887,7 @@
 				4C8ED2701C4E5F1100AF788F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C8ED2711C4E5F1100AF788F /* Build configuration list for PBXNativeTarget "TutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -831,6 +896,7 @@
 				4C8ED2731C4E5F1100AF788F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C8ED2741C4E5F1100AF788F /* Build configuration list for PBXNativeTarget "TutorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -839,6 +905,7 @@
 				4C8ED2761C4E5F1100AF788F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C8ED2981C4E605B00AF788F /* Build configuration list for PBXNativeTarget "Tutorial WatchKit App Extension" */ = {
 			isa = XCConfigurationList;
@@ -847,6 +914,7 @@
 				4C8ED29A1C4E605B00AF788F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C8ED29C1C4E605B00AF788F /* Build configuration list for PBXNativeTarget "Tutorial WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -855,6 +923,7 @@
 				4C8ED29E1C4E605B00AF788F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -9,3 +9,9 @@
 import Foundation
 
 let kAppGroup = "group.de.Michael-Dazjuk"
+
+let kJobTableViewCell = "JobTableViewCell"
+
+let kJobEntity = "Job"
+
+let kJobOrderAttribute = "order"
