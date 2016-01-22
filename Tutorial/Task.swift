@@ -9,10 +9,11 @@
 import Foundation
 import CoreData
 
-@objc(Task)
 class Task: NSManagedObject {
 
-// Insert code here to add functionality to your managed object subclass
-   
+    @NSManaged var done: NSNumber
+    @NSManaged var name: String
+    @NSManaged var order: NSNumber
+    @NSManaged var job: NSManagedObject
 
 }

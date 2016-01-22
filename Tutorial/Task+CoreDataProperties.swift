@@ -14,9 +14,14 @@ import CoreData
 
 extension Task {
 
-    @NSManaged var done: NSNumber
-    @NSManaged var name: String
-    @NSManaged var order: NSNumber
-    @NSManaged var job: NSManagedObject
+    static func  createTaskForJob (job: Job, withName name: String  ) -> Task{
+        let task = NSEntityDescription.insertNewObjectForEntityForName(kTaskEntity, inManagedObjectContext: CoreData.sharedInstance.managedObjectContext!) as! Task
+        task.job = job
+        task.name = name
+        task.order = CoreData.minIntegerValueForEntity(kTaskEntity, attributeName: kTaskOrderAttribute, predicate: NSPredicate(format: "job == %@", job)) - 1
+        CoreData.sharedInstance.saveContext()
+        return task
+    }
+
 
 }

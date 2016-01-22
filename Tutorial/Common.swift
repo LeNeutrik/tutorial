@@ -11,7 +11,10 @@ import Foundation
 let kAppGroup = "group.de.Michael-Dazjuk"
 
 let kJobTableViewCell = "JobTableViewCell"
-
 let kJobEntity = "Job"
-
 let kJobOrderAttribute = "order"
+
+let kTaskTableViewCell = "TaskTableViewCell"
+let kTaskTableViewController = "TaskTableViewController"
+let kTaskEntity = "Task"
+let kTaskOrderAttribute = "order"

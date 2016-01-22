@@ -47,15 +47,7 @@ class JobTableViewController: UITableViewController  {
         let fetchedResultsController = NSFetchedResultsController(fetchRequest: request, managedObjectContext: CoreData.sharedInstance.managedObjectContext!, sectionNameKeyPath: nil, cacheName: nil)
         
         fetchedResultsController.delegate = self
-        
-        do {
-            try fetchedResultsController.performFetch()
-        } catch {
-            
-            return nil
-            
-        };
-        
+        (try! fetchedResultsController.performFetch())
         return fetchedResultsController
     } ()
     
@@ -75,7 +67,7 @@ class JobTableViewController: UITableViewController  {
     // MARK: - Segue
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {        
-        if segue.identifier == "TaskTableViewController" {
+        if segue.identifier == kTaskTableViewController {
             if let indexPath = tableView.indexPathForSelectedRow, job = fetchedResultsController.objectAtIndexPath(indexPath) as? Job {
                 if let controller = segue.destinationViewController as? TaskTableViewController{
                     controller.job = job
@@ -87,12 +79,12 @@ class JobTableViewController: UITableViewController  {
     // MARK: - barButtonItemActions
     func addJob(sender:UIBarButtonItem) {
         
-        let title = NSLocalizedString("titleCreatJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Create new job", comment: "title in alert controller")
+        let title = NSLocalizedString("titleCreateJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Create new job", comment: "title in alert controller")
         
-        let placeholder = NSLocalizedString("placeholderCreatJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Job", comment: "placeholder for input textField")
-        let message = NSLocalizedString("messageCreatJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Type in or dictate a jobname. Press 'Ok' to save. The dialog will pop up again for you, for easily creating the next job. Press 'Cancel' if your job list is complete for now", comment: "message in alertController")
-        let ok = NSLocalizedString("okButtonCreatJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Ok", comment: "button  label")
-        let cancel = NSLocalizedString("cancelButtonCreatJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Cancel", comment: "button  label")
+        let placeholder = NSLocalizedString("placeholderCreateJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Job", comment: "placeholder for input textField")
+        let message = NSLocalizedString("messageCreateJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Type in or dictate a jobname. Press 'Ok' to save. The dialog will pop up again for you, for easily creating the next job. Press 'Cancel' if your job list is complete for now", comment: "message in alertController")
+        let ok = NSLocalizedString("okButtonCreateJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Ok", comment: "button  label")
+        let cancel = NSLocalizedString("cancelButtonCreateJobDialog", tableName: nil, bundle: NSBundle.mainBundle(), value: "Cancel", comment: "button  label")
         
         let dialog = JSMHelper.singleTextFieldDialogTitle(title, message: message, placeholder: placeholder, textFieldValue: "", ok: ok, cancel: cancel) {[weak self] (text) -> Void in
             
